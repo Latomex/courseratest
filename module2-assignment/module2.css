@@ -1,0 +1,33 @@
+div {
+	max-width: 450px;
+	max-height: 250px;
+}
+#menu{
+	text-align: center;
+	font-weight: bold;
+	font-size: 2em;
+}
+.Chicken{
+	clear: right;
+	float: left;
+	margin: 10px;
+}
+.Beef{
+	margin: 10px;
+	float:left;
+}
+.Sushi{
+	margin: 10px;
+	float:left;
+}
+.Chicken, .Beef, .Sushi{
+	text-align: justify;
+}
+div > div{
+	background-color: pink;
+	border: solid 2px;
+}
+title{
+	padding: 2px; !important
+	
+}
