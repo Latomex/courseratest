@@ -20,7 +20,9 @@ div {
 	float: left;
 	padding: 5px;
 	margin-left:25px;
-	width: 31%
+	margin-top: 25px;
+	max-width: 31%
+
 	
 }
 div > div{
@@ -30,12 +32,12 @@ div > div{
 }
 h2{
 	text-align: center;
-	max-width: 30%;
+	max-width: 120px;
 	min-width: 100px;
 	margin: 0;
 	margin-left: auto;
-	margin-right: -5px;
-	margin-top: -5px;
+	margin-right: -6px;
+	margin-top: -6px;
     border: solid 1px #000;
     
 	}
@@ -48,4 +50,16 @@ h2{
 }
 #S{
 	background-color: #E5D198;
+}
+
+
+@media only screen and (max-width: 991px) {
+  #Sushi {
+    max-width: 93%;
+  }
+
+  #Beef,#Chicken{
+  	max-width: 45%;
+  	margin-left: 25px;
+  }
 }
