@@ -1,9 +1,10 @@
 div {
-	max-width: 450px;
-	max-height: 250px;
+	width: 450px;
+	height: auto;
 	margin: 8px;
-	
-	padding: 0px 5px;
+	padding-right: 5px;
+	padding-left: 5px;
+	padding-bottom: 0px;
 }
 
 #menu{
@@ -20,7 +21,7 @@ div {
 }
 .Sushi{
 		float:left;
-}
+	}
 .Chicken, .Beef, .Sushi{
 	text-align: justify;
 	background-color:#999;
