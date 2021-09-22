@@ -1,7 +1,11 @@
 div {
 	max-width: 450px;
 	max-height: 250px;
+	margin: 8px;
+	
+	padding: 0px 5px;
 }
+
 #menu{
 	text-align: center;
 	font-weight: bold;
@@ -10,24 +14,38 @@ div {
 .Chicken{
 	clear: right;
 	float: left;
-	margin: 10px;
-}
+	}
 .Beef{
-	margin: 10px;
-	float:left;
+		float:left;
 }
 .Sushi{
-	margin: 10px;
-	float:left;
+		float:left;
 }
 .Chicken, .Beef, .Sushi{
 	text-align: justify;
+	background-color:#999;
+	border: solid 1px;
 }
 div > div{
 	background-color: pink;
 	border: solid 2px;
+	padding:auto;
 }
-title{
-	padding: 2px; !important
-	
+h2{
+	text-align: center;
+	max-width: 100px;
+	position: relative;
+	left:354px;
+	margin-top:0;
+	margin-right:0;
+	border: solid 1px;
+}
+#C{
+	background-color: #D59898;
+}
+#B{
+	background-color: #C14543;
+}
+#S{
+	background-color: #E5D198;
 }
