@@ -52,8 +52,14 @@ h2{
 	background-color: #E5D198;
 }
 
-
-@media only screen and (max-width: 991px) {
+@media only screen and  (max-width: 768px) {
+  #Sushi,#Beef,#Chicken{
+  	max-width: 100%;
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 991px) {
   #Sushi{
   	max-width: 100%;
     margin-right: 4%;
